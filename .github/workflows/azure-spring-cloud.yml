@@ -1,3 +1,6 @@
+name: Build and deploy on Azure Spring Cloud
+
+on: [push]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
